@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+python-csv = "*"
+mysql-connector-python = "*"
+python-chess = "==0.31.4"
+
+[requires]
+python_version = "3.8"
